@@ -19,7 +19,7 @@ void setup() {
   pinMode(11,OUTPUT); // Coil B: CURRENT
   pinMode(8,OUTPUT);  // Coil B: BRAKE
 
-  Serial.begin(9600);
+  Serial.begin(115200);
   
   shutdown_all();
 }
